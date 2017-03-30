@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ERA</string>
+    <string name="mensaje_cambiarConfiguración">ERA le permite cambiar la configuración de sus formulas siempre que lo desee. Para cambiar su configuración pulse en Cambiar Configuración , para volver a la página de inicio pulse en Regresar</string>
+    <string name="cambiar_configuracion">Cambiar Configuración</string>
+    <string name="regresar">Regresar</string>
+    <string name="busqueda">busqueda</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="reportar_error">Reportar Error</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="Empezar">Enhorabuena ya tiene configurada ERA. Recuerde que puede cambiar esta configuración desde el botón Configuración en cualquier momento. </string>
+    <string name="solicitar_formula">Solicitar fórmula</string>
+
+    <string name="TextoPreEncuesta1">¡Bienvenido! \n Te ayudaré a calcular las fórmulas que más usas rápida y eficazmente.</string>
+    <string name="TextoPreEncuesta2">Rápido y eficaz \n Elige de una lista de fórmulas las que
+más usas y si no la encuentras, ¡pidela!</string>
+    <string name="TextoPreEncuesta3">Organiza tus fórmulas \nClasifícalas según la frecuencia de uso asignándoles colores con el método del
+semáforo</string>
+    <string name="TextoPreEncuesta4">¡Ya casi estás listo! \n
+Debes rellenar un breve formulario acerca de la frecuencia de uso de tus fórmulas</string>
+    <string name="TextoPostEncuesta">¡Enhorabuena! \n ERA está configurada correctamente Ya puedes empezar a utilizarla.  </string>
+
+    <string name="AyudaEncuesta"> El sistema para organizar sus fórmulas es similar al semáforo utilizado en Urgencias.Seleccione el color rojo si usa la fórmula frecuentemente, el amarillo si las utiliza alguna vez  y el verde si las emplea poco. </string>
+    <string name="title_activity_inicio">Inicio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_formulas_frecuencia">FormulasFrecuencia</string>
+    <string name="title_activity_cambiar_configuracion">CambiarConfiguracion</string>
+    <string name="title_activity_reportar_error">ReportarError</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+    <string name="title_activity_solicitar_formula">SolicitarFormula</string>
+    <string name="nav_configuracion">Configuración</string>
+    <string name="nav_reportar_error">Reportar error</string>
+    <string name="nav_solicitar_formula">Solicitar fórmula</string>
+    <string name="nav_acerca_de">Acerca de</string>
+    <string name="title_activity_formulas_recientes">FormulasRecientes</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="title_activity_calcular_formula">CalcularFormula</string>
+
+
+</resources>

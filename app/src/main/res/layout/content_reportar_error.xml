@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Header aligned to top -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+
+
+    </LinearLayout>
+
+    <!-- Footer aligned to bottom -->
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#91F8F9"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LytContenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/LytContorno"
+            android:layout_height="wrap_content"
+            android:paddingRight="60dp"
+            android:paddingLeft="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/TxtTipoError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de error"
+                android:typeface="monospace"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:id="@+id/EtxTipoError"
+                android:layout_below="@+id/TxtNombre"
+                android:typeface="monospace"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:maxLength="50"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                />
+
+            <TextView android:id="@+id/TxtContadorTipoError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0/50"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:typeface="monospace"/>
+
+
+
+
+
+            <TextView android:id="@+id/TxtDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Referencia"
+                android:typeface="monospace"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                android:id="@+id/EtxDescripcion"
+                android:layout_below="@+id/txtNombre"
+                android:typeface="monospace"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:maxLength="120"
+                />
+
+            <TextView android:id="@+id/TxtContadorDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0/120"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:typeface="monospace"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnReportarError"
+            android:background="#ffffff"
+            android:src="@drawable/check"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            />
+
+        <!--
+
+        <TextView android:id="@+id/TxtEtiquetaBoton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reportar error"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:typeface="monospace"/>
+
+            -->
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!-- Inflate the contents of the ScrollView dynamicaly -->
+
+
+</RelativeLayout>
+
+
+    <!--
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:id="@+id/txtNombre"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="37dp" />
+
+
+    -->

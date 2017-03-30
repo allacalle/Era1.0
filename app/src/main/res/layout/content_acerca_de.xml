@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <!-- Header aligned to top -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+
+
+    </LinearLayout>
+
+    <!-- Footer aligned to bottom -->
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Otros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/footer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp">
+
+
+        <TextView android:id="@+id/TxtAutor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Creador: Alfonso Lacalle García\n"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:typeface="monospace"
+            />
+        <TextView android:id="@+id/TxtContacto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Contacto: era@empresa.com\n"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:typeface="monospace"
+            />
+        <TextView android:id="@+id/TxtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Telefono:666 666 666 \n"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:typeface="monospace"
+            />
+
+
+
+
+        <ImageView android:id="@+id/acercade"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/acercade"
+            android:layout_weight="3"
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!-- Inflate the contents of the ScrollView dynamicaly -->
+
+
+</RelativeLayout>

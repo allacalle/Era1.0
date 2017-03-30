@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <!-- Header aligned to top -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+
+
+    </LinearLayout>
+
+    <!-- Footer aligned to bottom -->
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:id="@+id/BtnAnterior"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:src="@drawable/last"
+            android:background="#fff"
+            />
+
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/RgpPagina"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RbtnPagina1"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RbtnPagina2"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RbtnPagina3"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RbtnPagina4"
+                />
+
+        </RadioGroup>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:id="@+id/BtnSiguiente"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:src="@drawable/next"
+            android:background="#fff"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Otros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header"
+        android:gravity="center" >
+
+        <ImageView android:id="@+id/ImgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:src="@drawable/semaforocirculo"
+            android:gravity="center"
+            />
+
+
+        <TextView android:id="@+id/TxtTextoMensajePreEncuesta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/TextoPreEncuesta3"
+            android:textSize="18sp"
+            android:shadowDx="3"
+            android:shadowDy="2"
+            android:layout_margin="30sp"
+            android:gravity="center"
+            android:typeface="monospace"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!-- Inflate the contents of the ScrollView dynamicaly -->
+
+
+</RelativeLayout>
